@@ -1,0 +1,749 @@
+{
+  "status": "Training complete",
+  "current_round": 10,
+  "total_rounds": 10,
+  "connected_clients": 3,
+  "clients_required": 3,
+  "rounds": [
+    {
+      "round": 1,
+      "global_accuracy": 0.7166666666666667,
+      "global_loss": 0.744996984799703,
+      "kappa": 0.565639344262295,
+      "referable_sensitivity": 0.3055555555555556,
+      "referable_specificity": 0.9930555555555556,
+      "confusion_matrix": [
+        [
+          119,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          4,
+          0,
+          0,
+          1
+        ],
+        [
+          13,
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          0,
+          4
+        ]
+      ],
+      "client_metrics": {
+        "Suburban Medical Center": {
+          "train_loss": 0.6676117181777954,
+          "train_accuracy": 0.762499988079071,
+          "examples": 240,
+          "loss": 1.0134789943695068,
+          "accuracy": 0.6166666666666667,
+          "kappa": 0.5400943396226414,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.3483569025993347,
+          "train_accuracy": 0.9208333492279053,
+          "examples": 240,
+          "loss": 0.6114254593849182,
+          "accuracy": 0.75,
+          "kappa": 0.5188284518828451,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.4255480170249939,
+          "train_accuracy": 0.8583333492279053,
+          "examples": 240,
+          "loss": 0.6100865006446838,
+          "accuracy": 0.7833333333333333,
+          "kappa": 0.6476190476190476,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 2,
+      "global_accuracy": 0.7888888888888889,
+      "global_loss": 0.5304655234018961,
+      "kappa": 0.619718309859155,
+      "referable_sensitivity": 0.4166666666666667,
+      "referable_specificity": 0.9930555555555556,
+      "confusion_matrix": [
+        [
+          118,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          19,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          7,
+          5,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3,
+          0,
+          0
+        ]
+      ],
+      "client_metrics": {
+        "Suburban Medical Center": {
+          "train_loss": 0.5055933594703674,
+          "train_accuracy": 0.800000011920929,
+          "examples": 240,
+          "loss": 0.6764055490493774,
+          "accuracy": 0.7,
+          "kappa": 0.6126760563380282,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.2534986734390259,
+          "train_accuracy": 0.9041666388511658,
+          "examples": 240,
+          "loss": 0.47647055983543396,
+          "accuracy": 0.8333333333333334,
+          "kappa": 0.5383347073371806,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.3872215449810028,
+          "train_accuracy": 0.8916666507720947,
+          "examples": 240,
+          "loss": 0.4385204613208771,
+          "accuracy": 0.8333333333333334,
+          "kappa": 0.7169811320754718,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 3,
+      "global_accuracy": 0.8166666666666667,
+      "global_loss": 0.4858282208442688,
+      "kappa": 0.6799653078924546,
+      "referable_sensitivity": 0.3055555555555556,
+      "referable_specificity": 1.0,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          12,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          2
+        ]
+      ],
+      "client_metrics": {
+        "Suburban Medical Center": {
+          "train_loss": 0.4001585841178894,
+          "train_accuracy": 0.8458333611488342,
+          "examples": 240,
+          "loss": 0.6851650476455688,
+          "accuracy": 0.7166666666666667,
+          "kappa": 0.6934604904632153,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.24056172370910645,
+          "train_accuracy": 0.9333333373069763,
+          "examples": 240,
+          "loss": 0.36291876435279846,
+          "accuracy": 0.85,
+          "kappa": 0.6583394562821454,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.16600564122200012,
+          "train_accuracy": 0.9583333134651184,
+          "examples": 240,
+          "loss": 0.4094008505344391,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.6623563218390804,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 4,
+      "global_accuracy": 0.8444444444444444,
+      "global_loss": 0.3989257613817851,
+      "kappa": 0.8055196711685262,
+      "referable_sensitivity": 0.6666666666666666,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          22,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          5,
+          8,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          5,
+          2,
+          0,
+          4
+        ]
+      ],
+      "client_metrics": {
+        "City General Hospital": {
+          "train_loss": 0.11544332653284073,
+          "train_accuracy": 0.9583333134651184,
+          "examples": 240,
+          "loss": 0.3745273947715759,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.77878985035784,
+          "test_examples": 60
+        },
+        "Suburban Medical Center": {
+          "train_loss": 0.3356839716434479,
+          "train_accuracy": 0.8500000238418579,
+          "examples": 240,
+          "loss": 0.5319362282752991,
+          "accuracy": 0.7666666666666667,
+          "kappa": 0.7365339578454333,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.1720016747713089,
+          "train_accuracy": 0.9416666626930237,
+          "examples": 240,
+          "loss": 0.2903136610984802,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.9083215796897038,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 5,
+      "global_accuracy": 0.8555555555555555,
+      "global_loss": 0.4109030266602834,
+      "kappa": 0.7929119280613595,
+      "referable_sensitivity": 0.5833333333333334,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          22,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          8,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          0,
+          5,
+          2,
+          0,
+          4
+        ]
+      ],
+      "client_metrics": {
+        "City General Hospital": {
+          "train_loss": 0.09252277761697769,
+          "train_accuracy": 0.9708333611488342,
+          "examples": 240,
+          "loss": 0.3982100784778595,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.77878985035784,
+          "test_examples": 60
+        },
+        "Suburban Medical Center": {
+          "train_loss": 0.33714085817337036,
+          "train_accuracy": 0.8708333373069763,
+          "examples": 240,
+          "loss": 0.5080521702766418,
+          "accuracy": 0.8,
+          "kappa": 0.7311827956989247,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.17617271840572357,
+          "train_accuracy": 0.9708333611488342,
+          "examples": 240,
+          "loss": 0.3264468312263489,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.8821752265861027,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 6,
+      "global_accuracy": 0.8611111111111112,
+      "global_loss": 0.4256908098856608,
+      "kappa": 0.832650802434975,
+      "referable_sensitivity": 0.7222222222222222,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          22,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          5,
+          7,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          6
+        ]
+      ],
+      "client_metrics": {
+        "Suburban Medical Center": {
+          "train_loss": 0.2655758261680603,
+          "train_accuracy": 0.8958333134651184,
+          "examples": 240,
+          "loss": 0.5992003083229065,
+          "accuracy": 0.8,
+          "kappa": 0.7657952069716776,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.14363938570022583,
+          "train_accuracy": 0.9541666507720947,
+          "examples": 240,
+          "loss": 0.33389341831207275,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.8902104300091491,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.07670172303915024,
+          "train_accuracy": 0.9750000238418579,
+          "examples": 240,
+          "loss": 0.3439787030220032,
+          "accuracy": 0.9,
+          "kappa": 0.8483009708737864,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 7,
+      "global_accuracy": 0.8333333333333334,
+      "global_loss": 0.49115944902102154,
+      "kappa": 0.7826589595375723,
+      "referable_sensitivity": 0.5,
+      "referable_specificity": 0.9930555555555556,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          22,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          10,
+          4,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          5,
+          2,
+          0,
+          4
+        ]
+      ],
+      "client_metrics": {
+        "Rural District Hospital": {
+          "train_loss": 0.14231279492378235,
+          "train_accuracy": 0.9541666507720947,
+          "examples": 240,
+          "loss": 0.4249531924724579,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.8821752265861027,
+          "test_examples": 60
+        },
+        "Suburban Medical Center": {
+          "train_loss": 0.27130064368247986,
+          "train_accuracy": 0.9041666388511658,
+          "examples": 240,
+          "loss": 0.6817249655723572,
+          "accuracy": 0.7166666666666667,
+          "kappa": 0.7051597051597052,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.07685983180999756,
+          "train_accuracy": 0.9833333492279053,
+          "examples": 240,
+          "loss": 0.3668001890182495,
+          "accuracy": 0.9,
+          "kappa": 0.7828947368421053,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 8,
+      "global_accuracy": 0.8388888888888889,
+      "global_loss": 0.43528130650520325,
+      "kappa": 0.7698029492365914,
+      "referable_sensitivity": 0.5555555555555556,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          22,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          8,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          6,
+          2,
+          1,
+          2
+        ]
+      ],
+      "client_metrics": {
+        "City General Hospital": {
+          "train_loss": 0.06943117827177048,
+          "train_accuracy": 0.9708333611488342,
+          "examples": 240,
+          "loss": 0.4068537652492523,
+          "accuracy": 0.85,
+          "kappa": 0.6785975164353543,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.13986322283744812,
+          "train_accuracy": 0.949999988079071,
+          "examples": 240,
+          "loss": 0.347237229347229,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.9029367844698855,
+          "test_examples": 60
+        },
+        "Suburban Medical Center": {
+          "train_loss": 0.18381540477275848,
+          "train_accuracy": 0.9208333492279053,
+          "examples": 240,
+          "loss": 0.5517529249191284,
+          "accuracy": 0.7833333333333333,
+          "kappa": 0.7259358288770054,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 9,
+      "global_accuracy": 0.85,
+      "global_loss": 0.483037402232488,
+      "kappa": 0.8382930937675463,
+      "referable_sensitivity": 0.6388888888888888,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          22,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          9,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          1,
+          6
+        ]
+      ],
+      "client_metrics": {
+        "Suburban Medical Center": {
+          "train_loss": 0.13561934232711792,
+          "train_accuracy": 0.9458333253860474,
+          "examples": 240,
+          "loss": 0.6770421862602234,
+          "accuracy": 0.7666666666666667,
+          "kappa": 0.7549019607843137,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.037882525473833084,
+          "train_accuracy": 0.987500011920929,
+          "examples": 240,
+          "loss": 0.43113529682159424,
+          "accuracy": 0.8833333333333333,
+          "kappa": 0.8365807668133249,
+          "test_examples": 60
+        },
+        "Rural District Hospital": {
+          "train_loss": 0.04477618634700775,
+          "train_accuracy": 0.987500011920929,
+          "examples": 240,
+          "loss": 0.34093472361564636,
+          "accuracy": 0.9,
+          "kappa": 0.9374130737134909,
+          "test_examples": 60
+        }
+      }
+    },
+    {
+      "round": 10,
+      "global_accuracy": 0.8388888888888889,
+      "global_loss": 0.4690036078294118,
+      "kappa": 0.8181602091751842,
+      "referable_sensitivity": 0.6388888888888888,
+      "referable_specificity": 0.9861111111111112,
+      "confusion_matrix": [
+        [
+          117,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          21,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          5,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          1,
+          4
+        ]
+      ],
+      "client_metrics": {
+        "Rural District Hospital": {
+          "train_loss": 0.07667136192321777,
+          "train_accuracy": 0.9791666865348816,
+          "examples": 240,
+          "loss": 0.33525753021240234,
+          "accuracy": 0.9,
+          "kappa": 0.9116781157998037,
+          "test_examples": 60
+        },
+        "City General Hospital": {
+          "train_loss": 0.10942909866571426,
+          "train_accuracy": 0.9416666626930237,
+          "examples": 240,
+          "loss": 0.4781453311443329,
+          "accuracy": 0.85,
+          "kappa": 0.7595190380761523,
+          "test_examples": 60
+        },
+        "Suburban Medical Center": {
+          "train_loss": 0.08771725744009018,
+          "train_accuracy": 0.9833333492279053,
+          "examples": 240,
+          "loss": 0.5936079621315002,
+          "accuracy": 0.7666666666666667,
+          "kappa": 0.7883295194508009,
+          "test_examples": 60
+        }
+      }
+    }
+  ]
+}

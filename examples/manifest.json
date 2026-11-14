@@ -1,0 +1,27 @@
+[
+  {
+    "file": "example_grade0.png",
+    "true_grade": 0,
+    "aptos_id": "318eb706a134"
+  },
+  {
+    "file": "example_grade1.png",
+    "true_grade": 1,
+    "aptos_id": "c40976189f22"
+  },
+  {
+    "file": "example_grade2.png",
+    "true_grade": 2,
+    "aptos_id": "d95959798b57"
+  },
+  {
+    "file": "example_grade3.png",
+    "true_grade": 3,
+    "aptos_id": "762d6e5d5068"
+  },
+  {
+    "file": "example_grade4.png",
+    "true_grade": 4,
+    "aptos_id": "f549294e12e1"
+  }
+]

@@ -1,0 +1,24 @@
+# Environments
+.venv/
+server/venv/
+
+# Datasets (never commit patient data)
+data_zips/
+data_unzipped/
+data_synthetic_src/
+
+# Runtime output
+logs/
+models/checkpoints/
+models/*.tmp*
+__pycache__/
+.pytest_cache/
+
+# Tooling / OS
+.remember/
+.vscode/
+.DS_Store
+models/*.h5
+
+# Sample images of unconfirmed origin/licence; keep out of the repo until verified
+samples/

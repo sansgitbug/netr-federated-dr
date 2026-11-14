@@ -1,0 +1,11 @@
+# Dependencies for the HOSTED dashboard only (replay + scan grading).
+# Streamlit Community Cloud reads this file because it sits next to the app entrypoint.
+# Select Python 3.11 in the app's advanced settings; TensorFlow 2.17 needs <= 3.12.
+# For training and the full demo use ../requirements.txt instead.
+tensorflow-cpu==2.17.1
+numpy==1.26.4
+pandas==2.2.3
+pillow==10.4.0
+pyarrow==17.0.0
+streamlit==1.39.0
+streamlit-autorefresh==1.0.1
