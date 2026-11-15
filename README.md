@@ -4,7 +4,12 @@ Hospitals can't pool retinal scans because patient data is protected by laws lik
 
 This is a research demo. It is not a medical device and it has not been clinically validated.
 
-<!-- TODO: add demo GIF (docs/demo.gif) and hosted dashboard link -->
+Live demo: https://netr-federated-dr.streamlit.app/
+
+The page replays a recorded 10-round run and lets you grade example scans or your own. It is on
+free hosting, so if it says the app is asleep, click the wake button and give it a minute.
+
+<!-- TODO: add demo GIF (docs/demo.gif) -->
 
 ## How it works
 
